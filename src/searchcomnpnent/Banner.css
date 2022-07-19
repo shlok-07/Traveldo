@@ -1,0 +1,65 @@
+.banner{
+    height:65vh;
+    position: relative;
+    background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center;
+}
+
+.banner__searchbutton{
+  background-color: white!important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color:#ff7779 !important;
+}
+
+.banner__search{
+  display: flex;
+  flex-direction: column;
+}
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 65px;
+    width:300px;
+    height: 28vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.banner_info>button {
+  /* background-color: #c2fbd7; */
+  background-color: #ff7779;
+  border-radius: 100px;
+  /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px; */
+  box-shadow: #ff7779 0 -25px 18px -14px inset,#ff7779 0 1px 2px,#ff7779 0 2px 4px,#ff7779 0 4px 8px,#ff7779 0 8px 16px,#ff7779 0 16px 32px; 
+  /* color: rgb(9, 75, 9); */
+  color:#ff7779;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.banner_info>button :hover {
+  box-shadow: rgba(34, 58, 43, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-4deg);
+}
+
+.divbutn{
+    display: flex;
+    padding:10px;
+}
+.but{
+  text-decoration: none;
+}
+
