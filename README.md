@@ -3,8 +3,6 @@ This Project is completely based on the API, we are using the API such as Google
 
 Project Link: https://traveldo.netlify.app/
 
-<!-- ![firstImage](https://user-images.githubusercontent.com/78397996/179801470-c4c06f7d-31f2-439b-873b-d1e8389be382.png) -->
-
 Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
